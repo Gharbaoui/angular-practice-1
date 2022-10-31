@@ -57,6 +57,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
                     </div>
                     <img src="https://angular.io/generated/images/guide/architecture/component-databinding.png"/>
                 </li>
+                <li>
+                    <div>
+                        <b>
+                            angular teamplates are daynmic when angular renders them 
+                            it maniplut the dom according to the instructions given by 
+                            the directives
+                        </b>
+                        directive is a class with a @Directive() decorator
+                    </div>
+                </li>
             </ul>
         </div>
     </li>
