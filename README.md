@@ -67,6 +67,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
                         directive is a class with a @Directive() decorator
                     </div>
                 </li>
+                <li>
+                    <div>
+                        change the appearance of behavior of dom and angular components with attribute directies
+                    </div>
+                    <div>
+                        <b syle="display: block;"> this is how to make directive </b>
+                        <ul>
+                            <li> to create directive using cli <i> ng generate directive directive-name </i> </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </li>
