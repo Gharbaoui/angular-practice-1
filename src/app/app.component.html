@@ -1,6 +1,14 @@
-<div> <!-- [appBgHighlight]="bgColor" defaultColor="violet"--> class="container">
+<div  class="container">
     <div class="upper-data">
-        <img src="../assets/hot.jpg" >
+        <img src="../assets/hot-1.jpg" *ngIf="hotWeather; else coldimg">
+        <ng-template #coldimg>
+            <img src="../assets/cold-1.jpg">
+        </ng-template>
+
+        <div class="weather-data">
+            <div class="location">casa</div>
+            <div class="temperature">{{ curTemperature | number: '1.0-0' }}°C</div>
+        </div>
     </div>
     <div class="lower-data">
 
