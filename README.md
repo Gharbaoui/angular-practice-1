@@ -41,6 +41,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
             it links template with componet and it support two-way data binding
         </div>
         <img src="https://angular.io/generated/images/guide/architecture/databinding.png" />
+        <div>
+            <strong> Examples: </strong>
+            <ul> 
+                <li>
+                    <i> [player]="michel jordan"</i>
+                    passes the value michel jordan from the parent to a child property player of child compoent
+                </li>
+            </ul>
+        </div>
     </li>
 
 </ul>
