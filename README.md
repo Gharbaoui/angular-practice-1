@@ -48,6 +48,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
                     <i> [player]="michel jordan"</i>
                     passes the value michel jordan from the parent to a child property player of child compoent
                 </li>
+                <li>
+                    <div>
+                        <i> [(ngModel)]="hero.name"</i>
+                        this is two-way data binding usually you will find it in forms
+                        you could think of it that it uses property binding form comp to template
+                        and event from template to comp
+                    </div>
+                    <img src="https://angular.io/generated/images/guide/architecture/component-databinding.png"/>
+                </li>
             </ul>
         </div>
     </li>
