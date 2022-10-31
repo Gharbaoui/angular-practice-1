@@ -5,5 +5,8 @@ import { Directive, ElementRef } from '@angular/core';
 })
 export class BgHighlightDirective {
 
+  constructor(private elmn: ElementRef) {
+    this.elmn.nativeElement.style.backgroundColor = `red`;
+  }
 
 }
