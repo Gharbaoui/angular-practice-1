@@ -77,6 +77,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
                             <li> to create directive using cli <i> ng generate directive directive-name </i> </li>
                         </ul>
                     </div>
+                    <div>
+                        structural directives for example ngIf they are usually prefix with star like *ngIf
+                        this is shorthand that angular transforms from [tag] *ngIf="hero" class="name">{{hero.name}} [/tag] to
+                        [ng-template [ngIf]="hero"]
+                        [tag] class="name"> {{hero.name}}[/tag]
+                        [/ng-template]
+                    </div>
                 </li>
             </ul>
         </div>
