@@ -29,10 +29,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <ul>
     <li> <strong> template:</strong> is a form of html that tells angular how to render </li>
     <li>
-        <strong> View:</strong>
-        a template and component made up a view
-    </li>
-    <li>
+        <div>
+            <strong> View:</strong>
+            a template and component made up a view
+        </div>
         <img src="https://angular.io/generated/images/guide/architecture/component-tree.png" />
     </li>
+    <li>
+        <div>
+            <strong> data biding:</strong> 
+            it links template with componet and it support two-way data binding
+        </div>
+        <img src="https://angular.io/generated/images/guide/architecture/databinding.png" />
+    </li>
+
 </ul>
