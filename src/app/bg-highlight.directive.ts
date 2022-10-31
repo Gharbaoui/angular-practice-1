@@ -5,14 +5,14 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 })
 export class BgHighlightDirective {
 
-  @Input() appBgHighlight = '';
-
+  @Input() appBgHighlight:string = '';
+  @Input() defaultColor:string = '';
   constructor(private elmn: ElementRef) {
   }
 
   @HostListener('mouseenter')
   onMouseEnter() {
-    this.highlight(this.appBgHighlight);
+    this.highlight(this.appBgHighlight || this.defaultColor);
   }
 
   @HostListener(`mouseleave`)
