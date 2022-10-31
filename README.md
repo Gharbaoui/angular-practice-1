@@ -31,6 +31,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     <li>
         <strong> View:</strong>
         a template and component made up a view
+    </li>
+    <li>
         <img src="https://angular.io/generated/images/guide/architecture/component-tree.png" />
     </li>
 </ul>
