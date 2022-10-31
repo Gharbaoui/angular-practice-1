@@ -1,16 +1,18 @@
-import { Directive, ElementRef, HostListener } from '@angular/core';
+import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
   selector: '[appBgHighlight]'
 })
 export class BgHighlightDirective {
 
+  @Input() appBgHighlight = '';
+
   constructor(private elmn: ElementRef) {
   }
 
   @HostListener('mouseenter')
   onMouseEnter() {
-    this.highlight('skyblue');
+    this.highlight(this.appBgHighlight);
   }
 
   @HostListener(`mouseleave`)
